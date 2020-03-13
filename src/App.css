@@ -1,0 +1,72 @@
+body {
+	background-color: #282c34;
+}
+
+.App {
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+
+.zoneAffichage {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	border: 1px solid black;
+	color: white;
+	overflow: auto;
+}
+
+.zoneSaisie {
+	width: 500px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.message {
+	background-color: gray;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: left;
+}
+
+.nomUtilisateur {
+	font-size: 10px;
+	margin-left: 2px;
+}
+
+.msg {
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+.champsSaisie {
+	width: 81%;
+	padding: 0;
+	border: 0;
+	background-color: #5e5d5d;
+	color: white;
+	padding: 0 10px;
+}
+
+.boutonEnvoieMessage {
+	border: 0;
+	background-color: black;
+	color: white;
+	padding: 16px 10px;
+	margin-top: 0;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+.boutonEnvoieMessage:hover {
+	background-color: gray;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+.Kicklox {
+	background-color: yellowgreen;
+	color: #282c34;
+}
